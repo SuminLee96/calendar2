@@ -56,7 +56,7 @@ public class calendarActivity extends Activity {
         mCal = Calendar.getInstance();
 
         mCal.set(Integer.parseInt(curYearFormat.format(date)), Integer.parseInt(curMonthFormat.format(date))-1,1);
-        int dayNum = mCal.get()
+        int dayNum = mCal.get(Calen)
 
 
 
